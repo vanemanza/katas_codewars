@@ -1,7 +1,8 @@
 def count_sheeps(sheep):
     return len([x for x in sheep if x])
     
-    
+"""def count_sheeps(sheep):
+        return sheep.count(True)  """ 
 
 lista = [True,  True,  True,  False,
   True,  True,  True,  True ,
