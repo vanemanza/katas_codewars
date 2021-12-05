@@ -1,0 +1,12 @@
+>>> from output import cake
+>>> cake(900, 'abcdef')      
+That was close!
+
+>>> cake(56, 'ifkhchlhfd')  
+Fire!
+
+>>> cake(256, 'aaaaaddddr')
+Fire!
+
+>>> cake(333, 'jfmgklfhglbe')
+Fire!

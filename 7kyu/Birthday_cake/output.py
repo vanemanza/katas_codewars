@@ -1,4 +1,15 @@
-def cake(candles,debris):
+def cake(candles:int, debris:str) -> str:
+
+    """
+    Si la suma de debris > al 70% de candles, retorna Fire!
+    Si no, retorna That was close!
+
+    >>> cake(900, 'abcdef')
+    'That was close!'
+
+    >>> cake(56, 'ifkhchlhfd')  
+    'Fire!'
+    """
       
     def sumar(palabra):      
       puntos = []
